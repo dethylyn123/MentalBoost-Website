@@ -684,14 +684,11 @@ section {
 
 .why-us .content button:hover {
   background: #16d19c;
-  /* tarungon pa */
-  color: #ffffff !important;
 }
 
-/* .why-us .content button:hover {
-  color: #ffffff !important;
-} */
-
+.why-us .content button a:hover {
+  color: #ffffff;
+}
 
 .why-us .img {
   background-size: contain;
@@ -1795,7 +1792,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #3adcae;
+  background: #279778;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1847,4 +1844,10 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+/* Added CSS */
+
+.image-shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
 }
